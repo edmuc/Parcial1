@@ -1,0 +1,65 @@
+#Ejercicio1 Suma de pares positivos
+
+#par= n%2==0
+
+N1=int(input ("Ingrese un numero:"))
+N2=int(input ("Ingrese un numero:"))
+N3=int(input ("Ingrese un numero:"))
+N4=int(input ("Ingrese un numero:"))
+N5=int(input ("Ingrese un numero:"))
+
+N1%2==0,
+N2%2==0,N3%2==0,N4%2==0,N5%2==0
+(N1+N2+N3+N4+N5)
+
+
+
+
+
+
+
+
+
+
+#Ejercicio2 Clasificacion de edad
+
+Edad=int (input("Digite su edad:"))
+if Edad<13:
+    print ("Eres un niño")
+if Edad >=13<18:
+    print ("Eres un adolescente")
+if Edad>=18<59:
+    print ("Eres un adulto")
+if Edad>60:
+    print ("Eres un adulto mayor")
+if Edad<0:
+    print ("Error digite un numero valido")
+    
+
+#Ejercicio3 Contador de Vocales
+
+a=0
+e=0
+i=0
+o=0
+u=0
+Palabra= str(input("Digite una palabra:"))
+for vocal in Palabra:
+    vocal.upper
+
+    if vocal.lower() =="a":
+        a += 1
+    elif vocal.lower() =="e":
+        e += 1
+    elif vocal.lower() =="i":
+        i += 1
+    elif vocal.lower() =="o":
+        o += 1
+    elif vocal.lower() =="u":
+        u += 1
+print ("La palabra tiene:")
+print (f"a:{a}")
+print (f"e:{e}")
+print (f"i:{i}")
+print (f"o:{o}")
+print (f"u:{u}")

@@ -1,6 +1,5 @@
 #Ejercicio1 Suma de pares positivos
 
-#par= n%2==0
 
 N1=int(input ("Ingrese un numero:"))
 N2=int(input ("Ingrese un numero:"))
@@ -8,9 +7,19 @@ N3=int(input ("Ingrese un numero:"))
 N4=int(input ("Ingrese un numero:"))
 N5=int(input ("Ingrese un numero:"))
 
-N1%2==0,
-N2%2==0,N3%2==0,N4%2==0,N5%2==0
-(N1+N2+N3+N4+N5)
+if N1%2==0:
+
+if N2%2==0:
+   
+if N3%2==0:
+   
+if N4%2==0:
+   
+if N5%2==0:
+  
+print (N1+N2+N3+N4+N5)
+
+else: print ()
 
 
 

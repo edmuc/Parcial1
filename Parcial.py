@@ -47,7 +47,6 @@ o=0
 u=0
 Palabra= str(input("Digite una palabra:"))
 for vocal in Palabra:
-    vocal.upper
 
     if vocal.lower() =="a":
         a += 1
